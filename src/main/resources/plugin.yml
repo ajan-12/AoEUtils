@@ -1,0 +1,6 @@
+name: AoEUtils
+main: top.ageofelysian.AoEUtils.AoEUtils
+version: 1.0
+author: AlexLander123
+description: >
+             A plugin for some minor feature in AgeOfElysian.
