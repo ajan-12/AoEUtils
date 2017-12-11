@@ -1,4 +1,4 @@
-1) Tablist with per-rank prefixes, per-world prefixes and per-rank name colors
+1) Tablist with per-rank prefixes, per-world prefixes and per-rank name colors (Consider using [TAB](https://www.spigotmc.org/resources/tab-1-8-x-1-12-x.50065/) + [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/))
 
 2) Rtp
 
@@ -18,7 +18,7 @@
 
 10) A system that replicates the function of my generic npcs system which i'll explain in further detail once that needs to happen
 
-11) A gui for displaying recipes for the custom items (Consider using DeluxeMenus - https://www.spigotmc.org/resources/deluxemenus.11734/)
+11) A gui for displaying recipes for the custom items (Consider using [DeluxeMenus](https://www.spigotmc.org/resources/deluxemenus.11734/))
 
 12) Making the wands work
 
