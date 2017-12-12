@@ -14,11 +14,11 @@
 
 8) System that sets your rank to member and prevents your account from being accessed by cracked users if you join with a premium client for the first time which can be reset to the normal password system by registering
 
-9) Announcements that draw from specific pools for specific types of player distinguished by playtime and whether they're guests or members
+9) Announcements that draw from specific pools for specific types of player distinguished by permissions
 
 10) A system that replicates the function of my generic npcs system which i'll explain in further detail once that needs to happen
 
-11) A gui for displaying recipes for the custom items (Consider using [DeluxeMenus](https://www.spigotmc.org/resources/deluxemenus.11734/))
+11) A feature that reloads/resends the nearby chunks to a player to remove ghost blocks
 
 12) Making the wands work
 
@@ -45,3 +45,23 @@
 23) A system that calculates the amount of active players in uhc and changes the worldborder size so that the world has a configurable amount of square area for each player (sqrt(playercount * x) + spawnsize) where x is the configurable variable and the result is the diameter of the worldborder 
 
 24) The entitylimiter system (Separate plugin recommended)
+
+25) A system that detects reliably if a player is afk and then based on the ratio of the average playercount and the configurable value
+add a certain amount of afk time to the player, based on the amount of time they afked [(playercount/configurable value) * AFK time = Amount to add to afk time variable]
+
+26) Automatic restart system which stores the average playtimes of each hour of each day of the week and tries to determine an optimal time to restart and restarts are at most x hours and at least y hours apart
+
+27) a treasure chest system to refill specific chests with configurable loot tables that spawns more treasure chests in the wilderness if a minimum refill count per day isn't met that removes treasure chests from wilderness if a maximum refill count per day is exceeded and that provides each treasure chest its own refill cooldown that only refills chests in loaded chunks
+
+28) UHC world ban system
+
+29) a system that upon death lets a player teleport to their death coordinates with a cooldown that is a configurable % of the player's current playtime the ability timeouts in 5 minutes, if the player doesn't teleport in the first two or so minutes other players will for the remaining 3 or 2 minutes be able to teleport to the death location
+
+30) A shortcut command to make end gateway portals leading into specific coordinates
+
+31) A command that broadcasts a message for all but specified players, by a specified player (./command <sender> <excluded_player> <message ...>)
+
+32) A command that broadcasts a message for specified players, by a specified player (./command <sender> <included_player> <message ...>)
+  
+33) System to give new custom advancements
+  
