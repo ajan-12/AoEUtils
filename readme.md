@@ -14,7 +14,7 @@
 
 8) System that sets your rank to member and prevents your account from being accessed by cracked users if you join with a premium client for the first time which can be reset to the normal password system by registering
 
-9) Announcements that draw from specific pools for specific types of player distinguished by permissions
+9) Announcements that draw from specific pools for specific types of player distinguished by permissions :heavy_check_mark:
 
 10) A system that replicates the function of my generic npcs system which i'll explain in further detail once that needs to happen
 

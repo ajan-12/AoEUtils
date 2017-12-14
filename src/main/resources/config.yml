@@ -1,0 +1,10 @@
+announcement:
+    enable: true
+    interval: 30
+    groups:
+        default:
+        - "&1This is a test announcement"
+        - "&cC&6O&aL&bO&9U&5R&1!"
+        owner:
+        - "Special announcement"
+        - "Only Owners can see this xD"
