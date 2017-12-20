@@ -16,5 +16,7 @@ public class Feature {
 	}
 	
 	public void loadConfig() {}
+	
+	public void load() {}
 
 }

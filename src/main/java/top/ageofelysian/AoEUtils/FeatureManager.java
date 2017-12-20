@@ -10,17 +10,24 @@ public class FeatureManager {
 	
 	public void registerFeatures(FileConfiguration config) {
 		featureList.put("announcement", new Announcement(config, "announcement"));
+		featureList.put("randomteleport", new RandomTeleport(config, "randomteleport"));
 	}
 	
 	public void loadFeaturesConfig() {
 		for(Feature feature : featureList.values()) {
-			feature.loadConfig();
+			if (feature.isEnabled) {
+				feature.loadConfig();
+			}
 		}
 	}
 	
 	//As not all features have a run method therefore we will call the method manually
 	public void startFeatures() {
-		if(((Announcement) getFeature("announcement")).isEnabled) {((Announcement) getFeature("announcement")).run();}
+		for(Feature feature : featureList.values()) {
+			if (feature.isEnabled) {
+				feature.load();
+			}
+		}
 	}
 	
 	public Feature getFeature(String featureName) {

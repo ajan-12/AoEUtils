@@ -24,10 +24,6 @@ public class Announcement extends Feature{
 	@Override
 	public void loadConfig() {
 		
-		if(!isEnabled) {
-			return;
-		}
-		
 		interval = config.getInt(featureName + ".interval");
 		
 		announcements = new HashMap<String, List<String>>();
@@ -45,7 +41,8 @@ public class Announcement extends Feature{
 		}
 	}
 	
-	public void run() {
+	@Override
+	public void load() {
 		Bukkit.getScheduler().runTaskTimer(AoEUtils.getInstance(), new Runnable() {
 			
 			@Override

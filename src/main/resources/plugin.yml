@@ -4,3 +4,8 @@ version: 1.0
 author: AlexLander123
 description: >
              A plugin for some minor feature in AgeOfElysian.
+commands:
+   randomteleport:
+      description: Teleports a player to a random location in the current world.
+      aliases: rtp
+      usage: To teleport (/randomteleport) or to find out your remaining uses (/randomteleport info).
